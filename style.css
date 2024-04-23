@@ -12,21 +12,23 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    display: flex;
 }
 
 .profile-picture {
-    width: 100px;
-    float: left;
+    width: 150px;
+    flex-shrink: 0;
 }
 
 .profile-picture img {
     width: 100%;
     height: auto;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px;
 }
 
 .profile-info {
-    padding: 40px;
+    flex: 1;
+    padding: 20px;
 }
 
 .profile-name {
@@ -35,7 +37,6 @@ body {
 }
 
 .profile-bio {
-    margin-left: 35px;
     color: #666;
 }
 
@@ -45,7 +46,7 @@ body {
 }
 
 .profile-details li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .profile-details li strong {
